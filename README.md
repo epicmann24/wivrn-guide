@@ -294,7 +294,7 @@ Select the settings page on the left side of the panel in front of you.
 
 - Stream resolution:
 
-  - Newer versions of WiVRn send the stream resolution at 50% by default, which adjusts the foveated encoding that WiVRn uses. When set to 100%, you can disable foveation entirely for the highest picture quality. Turning this slider up will require more GPU power depending on how intensive of a game you play is. Adjust accordingly and try to strike a balance between image quality and performance.
+  - Newer versions of WiVRn set the stream resolution at 50% by default, which adjusts the foveated encoding that WiVRn uses. The higher the value, the larger the foveated area around the outside of the image becomes, filling up more of the screen. Turning this slider down will require more GPU power depending on how intensive of a game you play is. Adjust accordingly and try to strike a balance between image quality and performance.
 
 - Codec:
   - H.265 is preferred over H.264 as it will result in a smaller encoded video size while streaming, and also allow for checking "10-bit" to show less color banding it the image, as well as more striking dark scenes. H256 generally adds about 3ms of extra latency during the encoding process, but this trade off is worth it for the higher quality image and less banding.
